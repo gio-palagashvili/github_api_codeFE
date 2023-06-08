@@ -1,12 +1,20 @@
-import { FC } from "react";
+// import { FC } from "react";
+// import { ImLocation } from "react-icons/im";
+// import { AiOutlineLink } from "react-icons/ai";
 
-interface ListItemProps {
-  image: string;
-  text: string;
-}
+// interface ListItemProps {
+//   icon: IconEnum;
+//   text: string;
+// }
 
-const ListItem: FC<ListItemProps> = ({ image, text }) => {
-  return <div>{image}</div>;
-};
+// const ListItem: FC<ListItemProps> = ({ icon, text }) => {
+//   let iconT: any = {}
+//   return (
+//     <div className="flex place-items-center gap-2">
 
-export default ListItem;
+//       <p className="text-sm">Georgia</p>
+//     </div>
+//   );
+// };
+
+// export default ListItem;
